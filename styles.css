@@ -1,8 +1,14 @@
 h1 {
     color: #90c233;
 }
+
 /*
 #main-text {
     color:rgb(72, 134, 189);
 }
 */
+
+.intro-text {
+    font-size: 18px;
+    color: darkcyan;
+}
