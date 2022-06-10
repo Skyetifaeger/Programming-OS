@@ -10,5 +10,7 @@ h1 {
 
 .intro-text {
     font-size: 18px;
-    color: darkcyan;
+}
+.part-two {
+    color: blue;
 }
