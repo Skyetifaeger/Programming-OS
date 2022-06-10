@@ -1,6 +1,18 @@
-h1 {
-    color: #90c233;
+.site-header {
+    background: #3f51b5;
+    color: #fff;
+    padding: 10px 5%;
+    box-shadow: 0 1px 3px #444;
 }
+
+.site-header h1 { /* a site header that is && an h1*/
+    margin: 0%;
+    font-size: 50px;
+}
+
+/* h1 {
+    color: #90c233;
+} */
 
 /*
 #main-text {
