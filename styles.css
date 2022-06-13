@@ -54,6 +54,12 @@
 .intro-text {
     font-size: 18px;
 }
-.part-two {
-    color: blue;
+
+.billboard {
+    background: rgb(189, 181, 172);
+    text-align: center;
+    padding: 40px;
+}
+.billboard h2 {
+    margin-top: 0%;
 }
