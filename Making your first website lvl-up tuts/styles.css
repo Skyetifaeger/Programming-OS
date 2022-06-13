@@ -56,13 +56,24 @@
 }
 
 .billboard {
-    background: rgb(189, 181, 172);
+    background: #7a3030;
     text-align: center;
     padding: 40px;
+    color: aliceblue;
 }
 .billboard h2 {
     margin-top: 0%;
 }
-/* .aside {
-    margin-left: 30px;
-} */
+.aside {
+    float: right;
+    width: 20%;
+    background: #564360;
+    padding: 20px 5%;
+    color: #d7ffc8;
+}
+.main-col {
+    float: left;
+    width: 70%;
+    background: #008b8b;
+    color: #d7ffc8;
+}
