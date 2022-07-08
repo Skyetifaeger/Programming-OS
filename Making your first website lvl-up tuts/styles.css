@@ -81,3 +81,30 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.main-footer {
+    padding: 20px 5%;
+    background: #a03f3f;
+}
+
+.main-footer a {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.copy {
+    float: left;
+}
+
+.footer-nav {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li + li{
+    margin-left: 10px;
+}
