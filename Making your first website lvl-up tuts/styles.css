@@ -74,6 +74,10 @@
 .main-col {
     float: left;
     width: 70%;
-    background: #008b8b;
-    color: #d7ffc8;
+    color: black;
+}
+
+.column-wraper {
+    width: 90%;
+    margin: 0 auto;
 }
