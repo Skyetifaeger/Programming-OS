@@ -1,12 +1,21 @@
-h1{
-    color: blue;
+body {
+    background:blue url('../img/DSC_0532AA.JPG') no-repeat;
 }
-p{
+
+h1{
+    color: white;
+}
+ p{
+    color: white;
     font-size: 24px;
 }
+/*
 .second{
     color: red;
 }
 .first{
     color: green;
+} */
+.wrapper {
+    background-color: black;
 }
