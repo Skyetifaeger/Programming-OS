@@ -3,19 +3,25 @@ body {
 }
 
 h1{
+    text-align: left;
     color: white;
+    padding-left: 10px;
+    text-decoration: line-through;
+    text-transform: uppercase;
 }
- p{
+
+p{
+    text-transform: capitalize;
+    text-align: center;
     color: white;
     font-size: 24px;
+    text-decoration: underline;
 }
-/*
-.second{
-    color: red;
-}
-.first{
-    color: green;
-} */
+
 .wrapper {
     background-color: black;
+}
+
+.first {
+    text-indent: 100px;
 }
