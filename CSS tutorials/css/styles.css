@@ -22,6 +22,14 @@ p{
     background-color: black;
 }
 
+.wrapper a:hover {
+    background: red;
+}
+
+.wrapper a:active {
+    background: white;
+}
+
 .first {
     font:italic small-caps 900 1.4em Helvetica, Arial, sans-serif;
 }
