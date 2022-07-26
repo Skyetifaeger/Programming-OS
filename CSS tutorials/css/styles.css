@@ -43,6 +43,15 @@ p{
     display: inline-block;
 }
 
+.large-p{
+    text-align: left;
+    margin-left: 10px;
+    max-width: 900px;
+    color: #333;
+    position: relative;
+    right: -100px;
+}
+
 .wrapper a:hover {
     background: blue;
 }
