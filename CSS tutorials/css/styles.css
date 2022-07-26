@@ -36,6 +36,13 @@ p{
     padding: 40px 20px;
 }
 
+.bottom-wrapper{
+    height: 20px;
+    width: 10px;
+    background: orange;
+    display: inline-block;
+}
+
 .wrapper a:hover {
     background: blue;
 }
