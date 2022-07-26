@@ -1,5 +1,6 @@
 body {
     background:blue url('../img/DSC_0532AA.JPG') no-repeat;
+    margin: 0;
 }
 
 h1{
@@ -19,9 +20,9 @@ p{
 }
 
 .wrapper {
-    background-color: black;
-    width: 80%;
+    margin: 50px auto;
     height: 400px;
+    width: 300px;
 }
 
 .wrapper a:hover {
