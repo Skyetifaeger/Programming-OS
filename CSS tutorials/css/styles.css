@@ -29,8 +29,10 @@ p{
 .wrapper {
     border: 3px double #333;
     margin: 50px auto;
-    height: 400px;
-    width: 70%;
+    min-height: 200px;
+    width: 80%;
+    max-width: 800px;
+    min-width: 500px;
     padding: 40px 20px;
 }
 
