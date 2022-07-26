@@ -24,14 +24,16 @@ p{
     margin: 50px auto;
     height: 400px;
     width: 70%;
+    padding: 40px 20px;
 }
 
 .wrapper a:hover {
-    background: red;
+    background: blue;
 }
 
 .wrapper a:active {
-    background: white;
+    color: black;
+    background: #333;
 }
 
 .first {
