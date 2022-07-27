@@ -53,6 +53,10 @@ p{
     padding: 40px 40px;
 }
 
+p:first-letter{
+    font-weight: bold;
+}
+
 .wrapper a:hover {
     background: blue;
 }
