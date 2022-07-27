@@ -12,6 +12,7 @@ h1{
     padding-left: 10px;
     text-decoration: line-through;
     text-transform: uppercase;
+    float: right;
 }
 
 p{
@@ -48,8 +49,8 @@ p{
     margin-left: 10px;
     max-width: 900px;
     color: #333;
-    position: relative;
-    right: -100px;
+    background: white;
+    padding: 40px 40px;
 }
 
 .wrapper a:hover {
@@ -64,3 +65,16 @@ p{
 .first {
     font:italic small-caps 900 1.4em Helvetica, Arial, sans-serif;
 }
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
