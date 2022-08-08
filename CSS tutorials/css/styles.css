@@ -76,6 +76,9 @@ p:first-letter{
     font:italic small-caps 900 1.4em Helvetica, Arial, sans-serif;
 }
 
+li {
+    display: inline;
+}
 
 
 .clearfix:after {
