@@ -87,6 +87,12 @@ li {
     display: inline;
 }
 
+.item1 {
+    background: url('../img/DSC_0532AA.JPG') no-repeat;
+    padding: 200px 10px;
+    background-position: 30% 100%;
+}
+
 
 .clearfix:after {
     visibility: hidden;
