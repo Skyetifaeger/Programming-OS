@@ -7,6 +7,18 @@ h1, p {
     color: white;
 }
 
+.main-header{
+    float: left;
+}
+
+.main-header a{
+    display: block;
+    width: 287px;
+    height: 100px;
+    text-indent: -999999px;
+    background: lightblue;
+}
+
 h1{
     text-align: left;
     padding-left: 10px;
@@ -36,12 +48,6 @@ p{
     min-width: 500px;
     padding: 40px 20px;
 }
-
-.wrapper:before {
-    content: "\00BB";
-    font-size: 20px;
-}
-/* above is a suedo element , styles and content should be seperate */
 
 .bottom-wrapper{
     height: 20px;
@@ -73,6 +79,7 @@ p:first-letter{
 }
 
 .first {
+    display: inline;
     font:italic small-caps 900 1.4em Helvetica, Arial, sans-serif;
 }
 
