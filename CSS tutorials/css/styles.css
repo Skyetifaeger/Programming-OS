@@ -37,6 +37,12 @@ p{
     padding: 40px 20px;
 }
 
+.wrapper:before {
+    content: "\00BB";
+    font-size: 20px;
+}
+/* above is a suedo element , styles and content should be seperate */
+
 .bottom-wrapper{
     height: 20px;
     width: 10px;
