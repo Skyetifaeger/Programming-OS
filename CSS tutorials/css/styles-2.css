@@ -20,17 +20,27 @@ nav ul a:hover {
 }
 
 nav ul li {
-    display: block;
-    float: left;
+  display: block;
+  float: left;
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background: #333;
+  top: 37px;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li:hover > ul{
+  display: block;
 }
 
 nav ul li ul li{
     float: none;
 }
-
-
-
-
 
 
 
