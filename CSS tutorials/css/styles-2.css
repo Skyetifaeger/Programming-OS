@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+.top_nav{
+  margin-top: 0;
+}
+
 nav ul a{
     display: block;
     float: left;
