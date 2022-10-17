@@ -1,6 +1,8 @@
 var hello = 'hello world';
 var value = 3;
-var value2 = 0;
+console.log(value2);
+
+
 var adds = 3 + value2
 
 console.log(hello);
@@ -11,9 +13,10 @@ console.log(value == adds, 'if value2 is equal to adds');
 
 if (value === adds){
     console.log('woah');
+} else {
+    console.log('not woah');
 }
 
-    
 hello = 'goodbye world';
 
 alert(hello);
