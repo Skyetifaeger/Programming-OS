@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
 console.log(getRandomInt(0, 10));
 
 function addNums(num1, num2) {
-    alert(num1 + num2);
+    return alert(num1 + num2);
 }
-//????Adds first prompt to the front of the second prompt????
+
 addNums(prompt("1"), prompt("2"));
