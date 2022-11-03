@@ -2,16 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 
-const welcome = "Welcome to React";
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Welcome />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <Welcome text="welcome to react" />
         </p>
         <a
           className="App-link"
@@ -28,14 +26,16 @@ function App() {
 
 class Welcome extends Component {
   render() {
+    const{text} = this.props; //This is a place for Javascript
     return (
       <h1
         className="Welcome message"
       >
-        {Welcome}
+        {text}
       </h1>
     )
   }
 }
+
 
 export default App;
