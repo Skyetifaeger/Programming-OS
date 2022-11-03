@@ -3,6 +3,18 @@ import './App.css';
 import { Component } from 'react';
 
 function App() {
+
+  state = {
+    toggle: true
+  }
+
+  toggle = () => {
+    this.setState({
+      toggle: !this.state.toggle
+    }
+    )
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,22 +23,19 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           <Welcome text="welcome to react" />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {this.state.toggle &&
+          <p>This should show and hide</p>
+        }
+        <button class="button" onClick={this.toggle}>Show / Hide</button>
       </header>
+
     </div>
   );
 }
 
 class Welcome extends Component {
   render() {
-    const{text} = this.props; //This is a place for Javascript
+    const { text } = this.props; //This is a place for Javascript
     return (
       <h1
         className="Welcome message"
