@@ -4,17 +4,16 @@ import { Component } from 'react';
 
 function App() {
 
-  state = {
+  this.state = {
     toggle: true
   }
 
-  toggle = () => {
+  this.toggle = () => {
     this.setState({
       toggle: !this.state.toggle
     }
     )
   }
-
   return (
     <div className="App">
       <header className="App-header">
@@ -28,7 +27,6 @@ function App() {
         }
         <button class="button" onClick={this.toggle}>Show / Hide</button>
       </header>
-
     </div>
   );
 }
