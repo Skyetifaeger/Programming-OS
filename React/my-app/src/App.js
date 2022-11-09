@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React, { propTypes } from 'react';
 import './App.css';
 import { Component } from 'react';
 
@@ -10,17 +11,24 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <HelloWorld name="Skye"/>
-        <HelloWorld name="World"/>
+        <HelloWorld name="Skye" greeting='Wassup'/>
+        <HelloWorld name="World" />
       </header>
     </div>
   );
 }
 
-function HelloWorld(props) {
-  return(
-    <h1>Hello {props.name}</h1> 
+function HelloWorld({name, greeting = "Hello"}) {
+  return (
+    <h1>
+      {greeting} {name}!
+    </h1>
   )
+}
+
+HelloWorld.propTypes = {
+  name: propTypes.String,
+  greeting: propTypes.string
 }
 
 export default App;
