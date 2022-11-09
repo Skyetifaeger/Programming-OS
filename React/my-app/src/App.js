@@ -1,19 +1,12 @@
-import logo from './logo.svg';
 import React, { propTypes } from 'react';
 import './App.css';
 import { Component } from 'react';
+import { Counter } from './Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <HelloWorld name="Skye" greeting='Wassup'/>
-        <HelloWorld name="World" />
-      </header>
+      <Counter />
     </div>
   );
 }
@@ -26,9 +19,9 @@ function HelloWorld({name, greeting = "Hello"}) {
   )
 }
 
-HelloWorld.propTypes = {
-  name: propTypes.String,
-  greeting: propTypes.string
-}
+// HelloWorld.propTypes = {
+//   name: propTypes.String,
+//   greeting: propTypes.string
+// }
 
 export default App;
