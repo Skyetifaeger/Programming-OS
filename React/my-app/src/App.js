@@ -10,15 +10,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <HelloWorld />
+        <HelloWorld name="Skye"/>
+        <HelloWorld name="World"/>
       </header>
     </div>
   );
 }
 
-function HelloWorld() {
+function HelloWorld(props) {
   return(
-    <h1>Hello World</h1> 
+    <h1>Hello {props.name}</h1> 
   )
 }
 
