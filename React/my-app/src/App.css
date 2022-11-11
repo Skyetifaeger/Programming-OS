@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 77vh;
+  min-height: 100vh;
   font-size: 100px;
   display: flex;
   flex-direction: column;
@@ -25,8 +25,11 @@
 
 .App-header button{
   width: 100w;
-  height: 50px;
+  height: 70px;
   font-size: 30px;
+  background-color: #454c5a;
+  color: white;
+  margin: 5px;
 }
 
 .App-link {
