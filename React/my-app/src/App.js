@@ -11,17 +11,4 @@ function App() {
   );
 }
 
-// function HelloWorld({name, greeting = "Hello"}) {
-//   return (
-//     <h1>
-//       {greeting} {name}!
-//     </h1>
-//   )
-// }
-
-// HelloWorld.propTypes = {
-//   name: propTypes.String,
-//   greeting: propTypes.string
-// }
-
 export default App;
