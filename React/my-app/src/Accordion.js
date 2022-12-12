@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 
 export function Accordion() {
-    const [ isToggle, setToggled] = useState(false)
+    const [isToggled, setToggled] = useState(false)
 
     return (
-        <div class = "App-header">
-            <h3>Show Me</h3>
+        <div class="App-header">
+            {isToggled ?
+                <h3>Show Me</h3>
+                : null
+            }
             <button
-                onClick={ () => setToggled(!isToggle)}
+                onClick={() => setToggled(!isToggled)}
             >Toggle</button>
         </div>
     )
