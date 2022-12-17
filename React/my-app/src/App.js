@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(1);
   console.log(issudoToggled);
   return (
-    <div class="counterAccordion">
+    <div class="pageManager">
       <button
         onClick={() => {
           if (issudoToggled === 3) {
@@ -24,7 +24,7 @@ function App() {
         : issudoToggled == 2 ?
           <Accordion />
         : <Input />
-      }
+       }
     </div>
   );
 }

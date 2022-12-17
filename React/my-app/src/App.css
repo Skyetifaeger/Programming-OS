@@ -1,11 +1,11 @@
-.counterAccordion button{
+.pageManager button{
   background-color: #454c5a;
   margin: 20px 30px;
   color: white;
   font-size: 20px;
 }
 
-.counterAccordion{
+.pageManager{
   background-color: #282c34;
 }
 
@@ -35,8 +35,18 @@
   margin: 5px 120px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header input {
+  width: 80vw;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  margin: 0px 10vw;
+  position: absolute;
+}
+
+.inputText {
+  height: 20px;
+  position: relative;
 }
 
 .button {
