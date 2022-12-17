@@ -8,15 +8,22 @@ import { Input } from './input';
 function App() {
   const [issudoToggled, setsudoToggled] = useState(1)
   const [count, setCount] = useState(1);
+  console.log(issudoToggled);
   return (
     <div class="counterAccordion">
       <button
-        onClick={() => setsudoToggled(issudoToggled == 2)}
+        onClick={() => {
+          if (issudoToggled === 3) {
+            setsudoToggled(1);
+          } else {setsudoToggled(issudoToggled + 1);}
+        }}
       >Counter + Accordion</button>
 
       {issudoToggled == 1 ?
         <Counter />
-        : <Accordion />
+        : issudoToggled == 2 ?
+          <Accordion />
+        : <Input />
       }
     </div>
   );
