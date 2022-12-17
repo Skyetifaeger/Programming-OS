@@ -3,6 +3,7 @@ import { Counter } from './Counter';
 import { Accordion } from './Accordion'
 import React, { useState } from 'react';
 import { Input } from './input';
+import { MoviesList } from './moviesList';
 
 
 function App() {
@@ -11,20 +12,23 @@ function App() {
   return (
     <div class="pageManager">
       <button
-      style={{ fontSize: '20px'}}
+        style={{ fontSize: '20px' }}
         onClick={() => {
-          if (issudoToggled === 3) {
+          if (issudoToggled === 4) {
             setsudoToggled(1);
-          } else {setsudoToggled(issudoToggled + 1);}
+          } else { setsudoToggled(issudoToggled + 1); }
         }}
       >Content Switcher</button>
-
-      {issudoToggled == 1 ?
-        <Counter />
-        : issudoToggled == 2 ?
-          <Accordion />
-        : <Input />
-       }
+      <div class = "render">
+        {issudoToggled === 1 ?
+          <Counter />
+          : issudoToggled === 2 ?
+            <Accordion />
+            : issudoToggled === 3 ?
+              <Input />
+              : <MoviesList />
+        }
+      </div>
     </div>
   );
 }
