@@ -13,12 +13,6 @@
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -58,4 +52,20 @@
 .button {
   font-size: 100%;
   background-color: #bcb315;
+}
+
+.movies {
+  background-color: #282c34;
+  height: 93.45vh;
+}
+
+.movies input {
+  background-color: #454c5a;
+  height: 30px;
+  float: center;
+  padding: 10px 10px;
+  margin: 10px 40px;
+  color: white;
+  text-align: center;
+  float: right;
 }
