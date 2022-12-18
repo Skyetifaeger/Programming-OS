@@ -3,7 +3,7 @@ import { Counter } from './Counter';
 import { Accordion } from './Accordion'
 import React, { useState } from 'react';
 import { Input } from './input';
-import { MoviesList } from './moviesList';
+import { MoviesList } from './Movies/moviesList';
 
 
 function App() {
