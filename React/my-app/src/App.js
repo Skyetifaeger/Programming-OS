@@ -7,7 +7,7 @@ function App() {
   const [issudoToggled, setsudoToggled] = useState(1)
   console.log(issudoToggled);
   return (
-    <PageManager issudoToggled = {issudoToggled} setsudoToggled ={setsudoToggled}/>
+    <PageManager issudoToggled={issudoToggled} setsudoToggled={setsudoToggled} />
   );
 }
 

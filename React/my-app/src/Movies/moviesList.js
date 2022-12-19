@@ -11,6 +11,9 @@ const movies = [
     },
     {
         name: "Slopterman"
+    },
+    {
+        name: "Skye"
     }
 ]
 
