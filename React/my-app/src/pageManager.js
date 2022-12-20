@@ -4,6 +4,7 @@ import { Counter } from './Counter';
 import { Accordion } from './Accordion';
 import { Input } from './input';
 import { MoviesList } from './Movies/moviesList';
+import PropTypes from "prop-types";
 
 export function PageManager({ issudoToggled, setsudoToggled }) {
     return (
@@ -28,4 +29,9 @@ export function PageManager({ issudoToggled, setsudoToggled }) {
             </div>
         </div>
     )
+}
+
+PageManager.propTypes = {
+    issudoToggled: PropTypes.number.isRequired,
+    setsudoToggled: PropTypes.func.isRequired
 }

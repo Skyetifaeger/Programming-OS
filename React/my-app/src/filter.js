@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export function Filter ({setFilter, filter}){
     return (
@@ -7,4 +8,9 @@ export function Filter ({setFilter, filter}){
         value={filter} 
         />
     )
+}
+
+Filter.propTypes = {
+    filter: PropTypes.string.isRequired,
+    setFilter: PropTypes.func.isRequired
 }
