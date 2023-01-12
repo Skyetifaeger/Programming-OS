@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef} from "react";
 import { Movie } from "./movie";
 import { Filter } from "../filter";
 
@@ -19,8 +19,17 @@ const movies = [
 
 export function MoviesList() {
     const [filter, setFilter] = useState("")
+    // const ulRef = useRef(null)
+    // const ref = useRef(null)
+    // console.log(ref.current)
     return (
         <div class="movies">
+            {/* <form onSubmit={(e) => {
+                e.preventDefault()
+            }}>
+                <input ref = {ref}/>
+                <button />
+            </form> */}
             <Filter filter={filter} setFilter={setFilter}/>
             <ul>
                 {movies.filter((movie) =>

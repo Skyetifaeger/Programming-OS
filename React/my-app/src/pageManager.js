@@ -16,7 +16,7 @@ export function PageManager({ issudoToggled, setsudoToggled }) {
                         setsudoToggled(1);
                     } else { setsudoToggled(issudoToggled + 1); }
                 }}
-            >Content Switcher</button>
+            >SWITCH PAGE</button>
             <div class="render">
                 {issudoToggled === 1 ?
                     <Counter />
