@@ -4,13 +4,13 @@ import PropTypes from "prop-types";
 export function Movie({ movie }) {
     return (
         <li>
-            {movie.name}
+            {movie.title}
         </li>
     );
 }
 
 Movie.propType = {
     movie: PropTypes.shape ({
-        name: PropTypes.string.isRequired
+        title: PropTypes.string.isRequired
     }).isRequired
 }
