@@ -1,3 +1,18 @@
+.movies-list {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movies-list img{
+  width: 60%;
+  box-shadow: 1px 1px 5px (0,0,0,0.4);
+}
+
+
 .pageManager button{
   background-color: #454c5a;
   margin: 20px 30px;
@@ -54,12 +69,12 @@
   background-color: #bcb315;
 }
 
-.movies {
+/* .movies {
   background-color: #282c34;
   height: 93.45vh;
-}
+} */
 
-.movies input {
+/* .movies input {
   background-color: #454c5a;
   height: 30px;
   float: center;
@@ -68,4 +83,13 @@
   color: white;
   text-align: center;
   float: right;
+} */
+
+input {
+  background-color: transparent;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin: 10px;
+  font-size: 30px;
 }
