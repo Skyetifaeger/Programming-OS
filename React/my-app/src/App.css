@@ -24,9 +24,11 @@
   background-color: #282c34;
 } */
 
-.render {
+body {
   color: white;
   background: #282c34;
+  max-width: 80%;
+  margin: auto;
 }
 
 .App-header {

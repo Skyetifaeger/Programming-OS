@@ -35,10 +35,10 @@ export function MoviesList() {
     useEffect(() => {
         getMovies()
         getConfig()
-    })
+    }, [])
     
     return (
-        <div class="movies">
+        <div className="movies">
             <Filter filter={filter} setFilter={setFilter}/>
             <ul className = "movies-list">
                 {movies.filter((movie) =>
