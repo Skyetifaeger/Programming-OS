@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/" element={<MoviesList />}>
             {/* <PageManager issudoToggled={issudoToggled} setsudoToggled={setsudoToggled} /> */}
           </Route>
-          <Route path="/detail" element={<MovieDetail/>}>
+          <Route path="/movie/:id" element={<MovieDetail/>}>
           </Route>
         </Routes>
       </div>
