@@ -13,19 +13,20 @@
 }
 
 
-.pageManager button{
+/* .pageManager button{
   background-color: #454c5a;
   margin: 20px 30px;
   color: white;
   font-size: 20px;
 }
 
-.pageManager{
+.pageManager {
   background-color: #282c34;
-}
+} */
 
 .render {
   color: white;
+  background-color: #282c34;
 }
 
 .App-header {

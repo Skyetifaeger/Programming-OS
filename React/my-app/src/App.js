@@ -1,4 +1,11 @@
 import './App.css';
+import { MoviesList } from "./Movies/moviesList.js"
+import { MovieDetail } from "./Movies/movieDetail.js";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
 import React, { useState } from 'react';
 import { PageManager } from './pageManager';
 
@@ -6,7 +13,17 @@ import { PageManager } from './pageManager';
 function App() {
   const [issudoToggled, setsudoToggled] = useState(4)
   return (
-    <PageManager issudoToggled={issudoToggled} setsudoToggled={setsudoToggled} />
+    <Router>
+      <div className='render'>
+        <Routes>
+          <Route exact path="/" element={<MoviesList />}>
+            {/* <PageManager issudoToggled={issudoToggled} setsudoToggled={setsudoToggled} /> */}
+          </Route>
+          <Route path="/detail" element={<MovieDetail/>}>
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
