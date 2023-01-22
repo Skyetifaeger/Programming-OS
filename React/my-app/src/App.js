@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import { MoviesList } from "./Movies/moviesList.js"
 import { MovieDetail } from "./Movies/movieDetail.js";
 import {
@@ -7,6 +8,7 @@ import {
   Route
 } from 'react-router-dom';
 import React from 'react';
+import { PageManager } from './pageManager';
 // import { PageManager } from './pageManager';
 
 
@@ -21,6 +23,7 @@ function App() {
           </Route>
           <Route path="/movie/:id" element={<MovieDetail/>}>
           </Route>
+          <Route path="/pages" element={<PageManager/>}/>
         </Routes>
       </div>
     </Router>
