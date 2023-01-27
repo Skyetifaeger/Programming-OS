@@ -17,6 +17,8 @@ export function Movie({ movie, config }) {
     );
 }
 
+//Yo, for React Frameworks it was just an intro to different sites
+
 Movie.propType = {
     movie: PropTypes.shape({
         id: PropTypes.string.isRequired,
