@@ -28,3 +28,10 @@
   background-color: white;
   color: black;
 }
+
+.tasks {
+  background-color: #C6DBBA;
+  width: 60vw;
+  float: right;
+  margin: 0px 10vw 0px 0px;
+}

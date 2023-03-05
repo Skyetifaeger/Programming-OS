@@ -1,5 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+
+function ToggleSwitch() {
+  const [checked, setChecked] = useState(true);
+}
 
 function App() {
   return (
@@ -9,6 +13,9 @@ function App() {
       </header>
       <div>
         <button className='addTaskButton'>Add Task</button>
+      </div>
+      <div className='tasks'>
+        
       </div>
     </div>
   );
