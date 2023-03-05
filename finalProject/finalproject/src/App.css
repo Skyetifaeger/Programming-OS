@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  background-color: #998285;
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.Header {
+  color: #383d46;
+  padding: 2vh;
+  font-size: 30px;
+}
+
+.addTaskButton {
+  border: none;
+  background-color: #FCB89A;
+  width: 250px;
+  height: 80px;
+  float: left;
+  margin: 0px 200px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.addTaskButton:hover {
+  border: none;
+  background-color: white;
+  color: black;
+}
