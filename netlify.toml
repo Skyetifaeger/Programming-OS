@@ -1,1 +1,2 @@
-/api/*  https://api.example.com/:splat  200
+[[redirects]]
+    /api/*  https://api.example.com/:splat  200
