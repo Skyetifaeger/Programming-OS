@@ -1,0 +1,5 @@
+[build]
+command = "sed -i \"s|$API_KEY|${API_KEY}|g\" netlify.toml && npm build"
+
+[[redirects]]
+/api/*  https://api.themoviedb.org/3/:splat&api_key=$API_KEY 200
